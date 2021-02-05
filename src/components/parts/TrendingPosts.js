@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function TrendingPosts(){
+const TrendingPosts = () =>{
     return(
         <section className="top-home-section">
 			<div className="container">
@@ -88,4 +88,5 @@ export function TrendingPosts(){
 				</div>
 			</div>
 		</section>
-    );}
+	);}
+	export default TrendingPosts;

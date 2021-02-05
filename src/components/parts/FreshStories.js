@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function FreshStories(){
+const FreshStories = () => {
     return(
         <section className="fresh-section on-trend-mode">
         <div className="container">
@@ -68,3 +68,4 @@ export function FreshStories(){
     </section>
     );
 }
+export default FreshStories ;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Slider(){
+const Slider = () =>{
     return(
 <section className="top-slider-section fullscreen-slider">
 			<div className="top-slider-box text-center">
@@ -45,4 +45,5 @@ export function Slider(){
 			</div>
 		</section>
 
-    );}
+	);}
+	export default Slider ;
